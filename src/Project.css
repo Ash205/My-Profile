@@ -1,0 +1,42 @@
+.project{
+    /* position */
+    margin-top: 20%;
+    /* box */
+    width:200px;
+    height:75px;
+    background-color:#242424;
+    border-radius: 10px;
+    /* box-shadow: 1px 1px 1px 1px gray; */
+    /* align items */
+    /* display:flex; */
+}
+.p1{
+    width: 40%;
+}
+.p2{
+    display: flex;
+    flex-direction: column;
+}
+.p2 .project-title{
+    text-transform: uppercase;
+    font-weight: 900;
+    color:#5A80FF;
+    font-size: 12px;
+}
+.p2 .project-description{
+    color: white;
+    font-size: 8px;
+}
+a{
+    display:block;
+    width: 200px;
+    height: 75px;
+    text-decoration: none;
+    display: flex;
+}
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+}
+.shadow{
+    box-shadow: 1px 1px 1px 1px white;
+}

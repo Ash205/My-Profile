@@ -1,0 +1,22 @@
+import React, {useState} from 'react';
+import './Project.css';
+
+function Project(props){
+    const [hover,setHover] = useState(false);
+
+    return (
+        <div className={hover ? 'project shadow' : 'project'} onMouseEnter={()=>setHover(true)} onMouseLeave={()=>setHover(false)}>
+            <a href={props.link}>
+            <div className="p1">
+                <img src="" alt=""/>
+            </div>
+            <div className="p2" >
+                <span className="project-title" >{props.name}</span>
+                <span className="project-description" >Go to the Website</span>
+            </div>
+            </a>
+        </div>
+    );
+}
+
+export default Project;
