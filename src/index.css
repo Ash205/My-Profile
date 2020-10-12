@@ -1,9 +1,11 @@
 body {
+  color:white;
   margin: 0;
   font-family: 'Red Hat Display', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
+  font-size: 30px;
 }
 
 code {

@@ -8,11 +8,11 @@ function Project(props){
         <div className={hover ? 'project shadow' : 'project'} onMouseEnter={()=>setHover(true)} onMouseLeave={()=>setHover(false)}>
             <a href={props.link}>
             <div className="p1">
-                <img src="" alt=""/>
+                <img src={props.img} alt=""/>
             </div>
             <div className="p2" >
                 <span className="project-title" >{props.name}</span>
-                <span className="project-description" >Go to the Website</span>
+                <span className="project-description" >Check out the Website</span>
             </div>
             </a>
         </div>
