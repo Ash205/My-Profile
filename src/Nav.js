@@ -17,6 +17,7 @@ function Nav(){
           <Link to='/' style={linkstyle}><div className="nav-item"> Home </div></Link>
           <Link to='/projects' style={linkstyle}><div className="nav-item">Projects</div></Link>
           <Link to='/about' style={linkstyle}><div className="nav-item">About Me</div></Link>
+          <Link to='/contact' style={linkstyle}><div className="nav-item">Contact Me</div></Link>
         </div>
     </div>
   );

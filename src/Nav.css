@@ -1,8 +1,7 @@
 .nav-container{
     display: flex;
-    /* width: 50%; */
     height: 100px;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 900;
 }
 .nav-logo{
@@ -19,12 +18,16 @@
 }
 .nav-links .nav-item{
     background-color: #5A80FF;
-    border-radius: 20px;
+    border-radius: 30px;
     width: 150px;
-    height: 40px;
+    height: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 8px;
     /* padding-bottom: 10px; */
+    transition: border-radius 0.3s;
+}
+.nav-links .nav-item:hover{
+    border-radius: 0;
 }
