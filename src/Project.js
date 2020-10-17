@@ -3,7 +3,6 @@ import './Project.css';
 
 function Project(props){
     const [hover,setHover] = useState(false);
-
     return (
         <div className={hover ? 'project shadow' : 'project'} onMouseEnter={()=>setHover(true)} onMouseLeave={()=>setHover(false)}>
             <a href={props.link}>

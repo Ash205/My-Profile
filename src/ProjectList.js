@@ -8,10 +8,10 @@ function ProjectList(){
       <div className="project-row">
       <Project name="Covid19 Protocol" link="https://vithack.herokuapp.com/" img="/logo192.png"/>
       <Project name="Speech Suite" link="https://vithack.herokuapp.com/" img="/logo192.png"/>
-      <Project name="Smart Farmers' Assistant" link="https://vithack.herokuapp.com/" img="/logo192.png"/>
+      <Project name="Smart Farmers' Assistant" link="http://fun-hub.herokuapp.com/games" img="/logo192.png"/>
       </div>
       <div className="project-row">
-      <Project name="Covid19 Protocol" link="https://vithack.herokuapp.com/" img="/logo192.png"/>
+      <Project name="Password Manager" link="/projects/password-manager" img="/logo192.png"/>
       <Project name="Speech Suite" link="https://vithack.herokuapp.com/" img="/logo192.png"/>
       <Project name="Smart Farmers' Assistant" link="https://vithack.herokuapp.com/" img="/logo192.png"/>
       </div>
