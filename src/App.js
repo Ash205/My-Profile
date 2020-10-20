@@ -12,6 +12,7 @@ import PasswordManager from './PasswordManager';
 import ProtectedRoute from './ProtectedRoute';
 import './App.css';
 import Cookies from 'js-cookie';
+import TodoHandler from './Todo-List-App/TodoHandler'
 
 function App(){
   const [auth, setAuth] = useState(false);
@@ -48,7 +49,8 @@ const Routes = (props)=>{
 
 
 
-        <Route path='/projects/:project' exact><PasswordManager /></Route>
+        <Route path='/projects/password-manager' exact><PasswordManager /></Route>
+        <Route path='/projects/todo-list' exact><TodoHandler /></Route>
       </Switch>
     );
 }

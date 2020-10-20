@@ -1,0 +1,98 @@
+.todo-handler{
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todo-form-handler form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50vw;
+}
+
+.todo-form-handler .todo-input{
+    margin-right: 2vw;
+    font-size: 12px;
+    padding: 10px;
+    background-color: lightgray;
+    border: none;
+    width: 20vw;
+    height: 2vh;
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.todo-delete, .todo-submit-button, .todo-input:focus{
+    outline: none;
+}
+.todo-input::placeholder{
+    color: black;
+}
+
+.todo-submit-button{
+    background-color: rgb(245, 245, 54);
+    border: none;
+    border-radius: 50px ;
+    width: 2vw;
+    height:2vw;
+    /* padding-top: -2vw; */
+    font-size: 2em ;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo{
+    position: relative;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.todo .todo-text{
+    
+    font-size: 20px;
+    padding: 1vh;
+    padding-left: 10vh;
+    background-color: darkgray;
+    border: none;
+    width: 40vw;
+    height: 4vh;
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.todo-delete{
+    position: absolute;
+    background-color: rgb(226, 19, 19);
+    right: 1vh;
+    border: none;
+    border-radius: 50px ;
+    width: 2vw;
+    height:2vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.todo-complete{
+    position: absolute;
+    background-color: rgb(226, 19, 19);
+    left: 1vh;
+    border: none;
+    border-radius: 50px ;
+    width: 2vw;
+    height:2vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}

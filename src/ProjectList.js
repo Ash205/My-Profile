@@ -12,7 +12,7 @@ function ProjectList(){
       </div>
       <div className="project-row">
       <Project name="Password Manager" link="/projects/password-manager" img="/logo192.png"/>
-      <Project name="Speech Suite" link="https://vithack.herokuapp.com/" img="/logo192.png"/>
+      <Project name="Todo List App" link="/projects/todo-list" img="/logo192.png"/>
       <Project name="Smart Farmers' Assistant" link="https://vithack.herokuapp.com/" img="/logo192.png"/>
       </div>
     </div>
